@@ -211,9 +211,11 @@ body {
   100% { box-shadow: 0 0 5px #34c759, 0 0 10px #34c759; }
 }
 @media (max-width: 768px) {
-  .clm-header { padding: 1.25rem 1rem; text-align: left; }
+  .clm-header { padding: 1.25rem 1rem; text-align: center; }
   .clm-headline { font-size: 1.5rem; line-height: 1.2; }
   .clm-copy { font-size: 1.2rem; line-height: 1.7rem; }
   .clm-question, .clm-choice { font-size: 1.35rem; line-height: 1.4; }
+  .clm-question { text-align: center; }
+  .clm-footer, .clm-terms { text-align: center; }
   .clm-claim { font-size: 1.25rem; line-height: 1.6rem; }
 }
